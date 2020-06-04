@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Triangle Tracker</h1>
+    <form id="triangle-side-lengths">
+
+      <div class="form-group">
+        <label for="first-side">First side</label>
+        <input id="first-side" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="second-side">Second side</label>
+        <input id="second-side" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="third-side">Third side</label>
+        <input id="third-side" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit!</button>
+    </form>
+    <div class="type-of-triangle">The type of triangle you would have is a <span id="answer"></span>!</div>
+  </div>
+</body>
+</html>
